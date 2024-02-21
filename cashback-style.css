@@ -1,0 +1,198 @@
+.header {
+    background-image: url("../cashback-img/background.png");
+    background-position: top;
+    background-size: 100% 82%;
+    background-repeat: no-repeat;
+    }
+    
+    .block {
+        border-top-left-radius: 30rem;
+        border-bottom-left-radius: 30rem;
+    }
+    
+    .product-bg {
+        background-color: #F3EFE9;
+        border-radius: 40px;
+        }
+    
+    .little-title {
+    color: #768393;
+    font-size: 24px;
+    font-weight: 400;
+    }
+    
+    .text-60 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    }
+    
+    .text-25 {
+    font-size: 25px;
+    }
+    
+    .small-text {
+    font-size: 12px;
+    }
+    
+    .product {
+        margin-top: -28%;
+        }
+    
+    h2 {
+        letter-spacing: 2.3px;
+    }
+    
+    .banner {
+        background-image: url("../cashback-img/cashback-header.png");
+        background-repeat: no-repeat;
+        background-position: 50% 20%;
+        background-size: cover;
+    }
+    
+    
+    .product-block {
+        height: 18rem;
+    }
+    
+    .green-btn {
+    background-color: #627776!important;
+    color:#FFFFFF !important;
+    border: 2px solid #627776!important;
+    }
+    
+    .green-btn:hover {
+    background-color: transparent!important;
+    color:#627776!important;
+    border: 2px solid #627776!important;
+    }
+    
+    .yellow-btn {
+    background-color: #ffd100 !important;
+    color:#000 !important;
+    border: 2px solid #ffd100 !important;
+    }
+    
+    .yellow-btn:hover {
+    background-color: transparent !important;
+    color: #ffd100!important;
+    border: 2px solid #ffd100 !important;
+    }
+    
+    .dark-jabra-btn {
+    background-color: #6C859F!important;
+    color:#FFFFFF !important;
+    border: 2px solid #6C859F!important;
+    }
+    
+    .dark-jabra-btn:hover {
+    background-color: transparent !important;
+    color: #6C859F !important;
+    border: 2px solid #6C859F!important;
+    }
+    
+    .desktop-version {
+    display: inline-block;
+    }
+    
+    .mobile-version {
+    display: none;
+    }
+    
+    form input {
+        margin: 0.3rem 0;
+        border: none;
+        padding: 0 20px;
+        background: #f7f7f7;
+        border: 2px solid #fff;
+        border-radius: 15px;
+    }
+    
+    form input:not([type="checkbox"]) {
+        width: 100%;
+        height: 45px;
+    }
+    
+    form label {
+        display: none;
+    }
+          
+    form label[for="fieldinformation"] {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    
+    form input[type="checkbox"] {
+        width: 5%;
+    }
+    
+    form input:focus {
+        border: 2px solid #f7f7f7;
+        background: #fff;
+        outline: 0;
+    }
+    
+    form button {
+        margin-top: 1.5rem;
+    }
+    
+    form input[type="checkbox"] {
+        margin-top: 1rem;
+    }
+    
+    .fieldinformation.checkbox {
+        margin-bottom: 2rem;
+    }
+    
+    .checkbox label {
+        display: inline;
+    }
+    
+    .fieldapplication_area label[for="fieldapplication_area"] {
+        width: 100%;
+        display: block;
+    }
+    
+    
+    /* Screens */
+    @media screen and (max-width: 1200px) {
+    .text-60 {
+    font-size: 40px;
+    }
+    
+    .text-25 {
+    font-size: 22px;
+    }
+    
+    .product {
+        margin-top: -20%;
+    } 
+    
+    .header{
+        background-size: 100% 100%;
+        }
+    
+    .desktop-version {
+    display: none !important;;
+    }
+    
+    .mobile-version {
+    display: inline-block !important;;
+    }
+    }
+    
+    
+    @media screen and (max-width: 992px) {
+    .mb-mobile {
+    margin-bottom: 3%;
+    }
+    .product {
+        margin-top: -10%;
+    }
+    }
+    
+    @media screen and (max-width: 475px){
+    .product {
+        margin-top: -18%;
+    }
+    }

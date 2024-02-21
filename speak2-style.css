@@ -1,0 +1,266 @@
+.header {
+    background-color: #627776;
+}
+
+.colored-1 {
+    background-image: url("https://assets.channext.eu/jabra/2023/speak2/img/header.webp");
+     background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:  100% 65%;
+}
+  
+.bottom-line {
+   border-bottom: 2px solid #ffd100;
+}
+
+.btn-first {
+background-color: #faf9f6;
+color:#627776;
+border: 2px solid #faf9f6;
+}
+
+.btn-first:hover {
+background-color: transparent;
+color: #faf9f6;
+border: 2px solid #faf9f6;
+} 
+
+.yellow-btn {
+background-color: #ffd100 !important;
+color:#000 !important;
+border: 2px solid #ffd100 !important;
+}
+
+.yellow-btn:hover {
+background-color: transparent !important;
+color: #000 !important;
+border: 2px solid #ffd100 !important;
+}
+
+.block {
+    border-bottom-left-radius: 45rem;
+    border-top-left-radius: 45rem;
+}
+
+.icon-service {
+width: 40%;
+}
+
+.colored-2 {
+    background-color: #6C859F;
+}
+
+.grey-border {
+border-bottom: 2px solid #a7a8a8;
+}
+
+.bi-check-lg::before {
+font-size: 50px;
+}
+
+h1 {
+font-size: 56px !important;
+}
+
+h2 {
+font-size: 44px;
+}
+
+
+.text-25 {
+font-size: 25px;
+}
+
+.text-21 {
+font-size: 21px;
+}
+
+p {
+font-size: 18px;
+}
+
+.text-14 {
+font-size: 14px;
+}
+
+.desktop-screen {
+display: inline-block;
+}
+
+.mobile-screen {
+display: none;
+}
+
+/* Text Fonts Sizes*/
+body {
+font-family: Helvetica !important;
+color: #1a1a1a;
+}
+
+.w-600 {
+font-weight: 600;
+}
+
+/* Form */
+
+form label {
+    display: none;
+}
+
+form label[for="fieldinformation"] {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+form input[type="checkbox"] {
+    width: 2%;
+}
+
+form input::placeholder, form textarea::placeholder {
+color:#000;
+}
+
+form input:focus {
+    border: 1px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+}
+
+form input, form input:hover, form select, form select:hover {
+    margin: 0.5rem 0 !important;
+     background: #f7f7f7;
+    border: 1px solid transparent;
+    padding: 0 20px !important;
+    background: #fff !important;
+}
+
+form input:not([type="checkbox"]) {
+    width: 98%;
+    height: 45px;
+}
+
+ .field-information, .field-information:hover {  
+    width: 197%;
+    height: 100px;
+    margin: 0.3rem 0;
+    border: 1px solid black !important;
+    padding: 12px 20px;
+    background: #fff;
+    margin-top:0.5rem !important;
+}
+
+form button {
+margin-top: 5%;
+background-color: #ffd100 !important;
+color:#000 !important;
+border: 2px solid #ffd100 !important;
+padding: 9px 50px!important;
+}
+
+form button:hover  {
+margin-top: 5%;
+background-color: transparent !important;
+color: #000 !important;
+border: 2px solid #ffd100 !important;
+padding: 9px 50px!important;
+}
+
+.fieldvendor_opt_in.checkbox, .fieldreseller_opt_in.checkbox {
+width:100%;
+}
+
+form input[type="checkbox"] {
+    margin-top: 1rem;
+}
+
+.fieldinformation.checkbox {
+    margin-bottom: 2rem;
+}
+
+.checkbox label {
+    display: inline;
+}
+
+.fieldapplication_area label[for="fieldapplication_area"] {
+    width: 100%;
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text,
+.email, .phone, .country {
+    width: 48%;
+}
+
+#field-country {
+    width: 98%;
+    height: 72%;
+}
+
+.information.text {
+    width: 97%;
+}
+
+.field-last_name, .field-email, .field-country {
+  margin-right: auto;
+}
+
+/* Screens */
+
+@media screen and (max-width: 1200px) {
+.text-21 {
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 992px) {
+.icon-service {
+    width: 25%;
+}
+
+.mb-mobile {
+margin-bottom: 8%;
+}
+    
+.title-text {
+font-size: 25px !important;
+} 
+
+.text-25 {
+font-size: 21px;
+}
+
+.desktop-screen {
+display: none !important;;
+}
+
+.mobile-screen {
+display: inline-block !important;;
+}
+
+.block {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+h2 {
+font-size: 30px !important;
+} 
+
+.colored-1 {
+    background-size:  100% 85%;
+}
+}
+
+@media screen and (max-width: 375px) {
+
+h2 {
+font-size: 25px !important;
+} 
+}

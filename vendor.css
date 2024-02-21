@@ -1,0 +1,496 @@
+/* ---------- VENDOR CSS CHECKLIST: ------------------ *//*
+
+***** Required variables ******
+
+-—primary-color 
+
+****** General ******
+
+Import necessary fonts, add scroll-behavior, body styling, and basic typography
+
+***** Buttons ****** 
+
+Include styling for the primary and / or secondary buttons, plus the form buttons
+
+#form-container button, #form-container button:hover, .sp-cta-btn and .sp-cta-btn:hover selectors should be included in the styling of the primary button, so the signup pages don’t break
+
+****** Additional sections ******
+
+styling for LOGO and NEWS POST 
+
+****** Signup pages *******
+
+Make sure to set a dark color for the background of the signup page in the class .sp-dark-bg (in the signup page CSS - the color changes per vendor) and check if the primary-color matches it; otherwise set another variable color as the main color for the signup page.
+
+*/
+
+:root {
+    --primary-color: #ffd100;
+    --secondary-color: #1A1A1A;
+  }
+  
+  .brandcontainer h1 {
+    font-size: calc(1.5rem + ((1vw - 8.6px) * 0.7692));
+  }
+  
+  @media screen and (max-width: 480px) {
+    :root {
+      font-size: calc(((6vw - 8.6px) * 1.3));
+    }
+  }
+  
+  /* - - - - - - - - - - FONTS - - - - - - - - - - */
+  /*
+  GNElliot
+  http://www.fontsmith.com/fonts/fs-elliot.cfm
+  */
+  
+  @font-face {
+    font-family: GNElliotCyWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Thin.eot");
+    src: url("//assets.channext.eu/jabra/2021/general/fonts/GNElliotCyWeb-Thin.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Thin.woff") format("woff"), url("//assets.channext.eu/jabra/2021/general/fonts/GNElliotCyWeb-Thin.ttf") format("truetype"),;
+    font-weight: 200
+  }
+  
+  @font-face {
+    font-family: GNElliotCyWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Light.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Light.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Light.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Light.ttf") format("truetype");
+    font-weight: 300
+  }
+  
+  @font-face {
+    font-family: GNElliotCyWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Regular.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Regular.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Regular.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: GNElliotCyWeb;
+    src: url("//assets.channext.eu/jabra/2021/general/fonts/GNElliotCyWeb-Bold.eot");
+    src: url("//assets.channext.eu/jabra/2021/general/fonts/GNElliotCyWeb-Bold.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Bold.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Bold.ttf") format("truetype");
+    font-weight: 600
+  }
+  
+  @font-face {
+    font-family: GNElliotCyWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Heavy.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Heavy.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Heavy.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Heavy.ttf") format("truetype");
+    font-weight: 800
+  }
+  
+  @font-face {
+    font-family: GNElliotCyWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Italic.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Italic.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Italic.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotCyWeb-Italic.ttf") format("truetype");
+    font-style: italic
+  }
+  
+  @font-face {
+    font-family: GNElliotWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Thin.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Thin.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Thin.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Thin.ttf") format("truetype");
+    font-weight: 200
+  }
+  
+  @font-face {
+    font-family: GNElliotWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Light.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Light.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Light.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Light.ttf") format("truetype");
+    font-weight: 300
+  }
+  
+  @font-face {
+    font-family: GNElliotWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Regular.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Regular.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Regular.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: GNElliotWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Bold.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Bold.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Bold.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Bold.ttf") format("truetype");
+    font-weight: 600
+  }
+  
+  @font-face {
+    font-family: GNElliotWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Heavy.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Heavy.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Heavy.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Heavy.ttf") format("truetype");
+    font-weight: 700
+  }
+  
+  @font-face {
+    font-family: GNElliotWeb;
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Italic.eot");
+    src: url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Italic.eot?#ie") format("embedded-opentype"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Italic.woff") format("woff"), url("https://cdn.channext.eu/jabra/fonts/GNElliotWeb-Italic.ttf") format("truetype");
+    font-style: italic
+  }
+  
+  
+  
+  /* - - - - - - - - - - GENERAL - - - - - - - - - - */
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+     font-family: GNElliotCyWeb,Lucida Sans Unicode, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #212529;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: .75rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #898989;
+    font-size: 18px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .label {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .label {
+      font-size: 3.62vw;
+    }
+  }
+  
+  /* - - - - - - - - - - HEADINGS AND TEXT - - - - - - - - - - */
+  h1 {
+    font-size: 45px;
+    line-height: 66px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    line-height: 54px;
+  }
+  
+  h3 {
+    font-size: 28px;
+    line-height: 44px;
+  }
+  
+  h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+  
+    h2 {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  
+    h3 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  
+    h4 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    h1 {
+      font-size: 28px;
+      line-height: 40px;
+    }
+  
+    h2 {
+      font-size: 22px;
+      line-height: 34px;
+    }
+  
+    h3 {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+  }
+  
+  /* - - - - - - - - - - BUTTONS - - - - - - - - - - */
+  
+  .btn,
+  .sp-cta-btn,
+  form button,
+  #form-container button {
+    border-radius: 30px;
+    padding: 10px 35px;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.15rem;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    white-space: nowrap;
+    transition: all .2s ease-in-out;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .btn, .sp-cta-btn, form button {
+      font-size: 4.34vw;
+    }
+  }
+  
+  .btn.yellow, 
+  .sp-cta-btn,
+  form button,
+  #form-container button {
+    background-color: #ffd100;
+    color: #000;
+    border: 2px solid #ffd100;
+  }
+  
+  
+  .btn.yellow:hover,
+  .sp-cta-btn:hover,
+  form button:hover,
+  #form-container button:hover {
+    background-color: #1a1a1a;
+    color: #ffd100;
+    text-decoration: none;
+  }
+  
+  .btn.secondary {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #1a1a1a;
+  }
+  
+  .btn.secondary:hover {
+    color: #fff;
+    background-color: #1a1a1a;
+  }
+  /* - - - - - - - - - - LINKS - - - - - - - - - - */
+  
+  
+  
+  /* - - - - - - - - - - COLORS - - - - - - - - - - */
+  
+  .white {
+    color: #FFFFFF;
+  }
+  
+  .dark-background-color {
+    background-color: #1A1A1A;
+  }
+  
+  
+  /* - - - - - - - - - - BACKGROUND-COLORS - - - - - - - - - - */
+  
+  .gray-diagonal-background {
+    background-image: url(//assets.channext.eu/jabra/2021/general/img/gray-rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+  }
+  
+  .yellow-background {
+    background-color: #ffd100;
+  }
+  
+  /* - - - - - - - - - - WIDGETS - - - - - - - - - - */
+  
+  
+  /* - - - - - - - - - - JABRA BLOCKS - - - - - - - - - - */
+  
+  .block-dark {
+    border-radius: 1rem;
+    min-height: 21rem;
+    height: 100%;
+    border: .1rem solid transparent;
+    color: #fff;
+    background-color: #54585a;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    transition: background-color 0.2s;
+    text-decoration: none !important;
+    max-width: 370px;
+    -webkit-box-shadow: 0px 12px 24px -30px rgba(84, 88, 89, 0.5);
+    box-shadow: 0px 12px 24px -30px rgba(84, 88, 89, 0.5);
+    min-height: 475px;
+    cursor: pointer;
+  }
+  
+  .block-dark li {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .block-dark ul {
+    padding-left: 21px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  .block-dark .yellow {
+    display: none;
+  }
+  
+  .block-dark .yellow.visibility {
+    display: inline-block;
+    visibility: hidden;
+  }
+  
+  .block-dark .sub {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  .block-dark:hover {
+    background-color: #ffd100;
+    color: #000;
+  }
+  
+  .block-dark:hover .yellow {
+    display: inline-block;
+  }
+  
+  .block-dark:hover .yellow.visibility {
+    visibility: visible;
+  }
+  
+  .block-dark:hover .dark {
+    display: none;
+  }
+  
+  .white-block {
+    background-color: white;
+    padding: 30px;
+    max-width: 100%;
+  }
+  
+  /* MODAL */
+  
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 800px;
+    }
+  }
+  
+  /* LOGO */
+  
+  .brand-logo {
+    max-height: 80px;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-logo img {
+    max-height: inherit !important;
+    max-width: 100% !important;
+    height: 60px;
+  }
+  
+  /* NEWS POST */
+  .img-responsive {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 185px !important;
+  }
+  
+  .tag-button {
+      background-color: white;
+      border-radius: 5px;
+      border: solid 2px #63B8FC;
+      color: #63B8FC;
+      }
+      
+      .tag-button:hover {
+      background-color: #63B8FC;
+      border-radius: 5px;
+      border: solid 2px #63B8FC;
+      color: #FFFFFF;
+      }
+  
+  .btn-link {
+      background-color: var(--primary-color) !important;
+      color: black !important;
+  }
+  
+  .btn-link:hover {
+      background-color: var(--primary-color) !important;
+      color: black !important;
+  }
+  
+  .jumbotron {  
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumbotron::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+  
+  .jumbotron > * {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .ck-content {
+    background: #fff;
+    margin-top: -30px;
+  }
+  
+  .jumbotron h1 {
+  font-size: 2.6rem;
+  color: white !important;
+      margin-top: 5%;
+  }
+  
+  @media screen and (max-width: 768px) {
+  .jumbotron h1 {
+  font-size:2.1rem;
+  }
+  }
+  
+  @media screen and (max-width: 425px) {
+  .jumbotron h1 {
+  font-size: 1.5rem;
+  }
+  }
+  
+  .navbar-brand img {width: 160px;}

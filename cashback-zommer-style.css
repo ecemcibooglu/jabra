@@ -1,0 +1,115 @@
+.header {
+    background-image: url("https://assets.channext.eu/jabra/2023/cashback-2/cashback-23/header.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+}
+
+h4 {
+color: #2A3F59!important;
+}
+
+ li {
+    margin: 0 15px 10px 15px !important;
+    list-style: none;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li p {
+font-size: 16px;
+}
+
+.text-21 {
+font-size: 21px;
+}
+
+.small-text {
+font-size: 12px;
+}
+
+.block-bitmap .img-container {
+    height: auto;
+    width: 100%;
+}
+
+/*Buttons*/
+
+.gray-btn {
+    background-color: #627776;
+    color: white !important;
+    border: 2px solid #627776!important;
+}
+
+.gray-btn:hover {
+    background-color: transparent;
+    color: #627776!important;
+    border: 2px solid #627776!important;
+}
+
+.yellow-btn {
+    background-color: #FFD100;
+    color: black !important;
+    border: 2px solid #FFD100 !important;
+}
+
+.yellow-btn:hover {
+    background-color: transparent;
+    color: #FFD100 !important;
+    border: 2px solid #FFD100 !important;
+}
+
+.jabra-dark-btn {
+    background-color: transparent;
+    color: #1A1A1A !important;
+    border: 2px solid #1A1A1A!important;
+}
+
+.jabra-dark-btn:hover {
+    background-color: #1A1A1A;
+    color: white!important;
+    border: 2px solid #1A1A1A!important;
+}
+
+/* Screen Differences */
+.desktop-version {
+display: inline-block;
+}
+
+.mobile-version {
+display: none;
+}
+
+@media screen and (max-width: 1200px) {
+.desktop-version {
+display: none;
+}
+
+.mobile-version {
+display: inline-block;
+}
+}
+ 
+ .carousel-item .col-md-3 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 1rem;
+    border-radius: 25px;
+height: 49rem;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+    height: 30px;
+    width: 30px;
+    color: #000;
+}

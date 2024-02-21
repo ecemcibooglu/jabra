@@ -1,0 +1,626 @@
+.header {
+    background-image: url("../audio-img/first.png");
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    background-size: cover;
+}
+
+.colored {
+    background-image: url("../audio-img/Rectangle.png");
+}
+
+.colored-2 {
+    background-image: url("../audio-img/Rectangle-1.png");
+}
+
+.firstly {
+    padding: 13%;
+}
+
+.block {
+    min-width: 50%;
+    background-color: #f3efe9;
+    border-bottom-left-radius: 45rem;
+    border-top-left-radius: 45rem;
+    margin-bottom: 10% !important;
+    margin-top: 10% !important;
+}
+
+.carousel-item .inside {
+    display: flex !important;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+
+.carousel-item img {
+    max-width: 300px;
+    max-height: 286px;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+    height: 30px;
+    width: 30px;
+    color: #000;
+}
+
+.multiSoundDemo65background-grey {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(#fbfbfb), color-stop(#f8f8f8), color-stop(#f4f4f4), to(#f1f1f1));
+    background-image: -o-linear-gradient(top, #ffffff, #fbfbfb, #f8f8f8, #f4f4f4, #f1f1f1);
+    background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f8f8f8, #f4f4f4, #f1f1f1);
+}
+
+.multiSoundDemo65 {
+    margin-bottom: 30px;
+}
+
+.multiSoundDemo65background .multiSoundDemo65__source {
+    padding-bottom: 75px;
+}
+
+.multiSoundDemo65__clip__options input {
+    cursor: pointer;
+}
+
+#multiSoundDemo65_playButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    background: #000;
+}
+
+#multiSoundDemo65_playButton .multiSoundDemo65__txt-play {
+    display: block;
+    white-space: nowrap;
+}
+
+#multiSoundDemo65_playButton.active .multiSoundDemo65__txt-play {
+    display: none;
+}
+
+#multiSoundDemo65_playButton .multiSoundDemo65__txt-pause {
+    display: none;
+}
+
+#multiSoundDemo65_playButton.active .multiSoundDemo65__txt-pause {
+    display: block;
+}
+
+#multiSoundDemo65_playButton .multiSoundDemo65__playpause-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 11px;
+    background-image: url(https://www.jabra.nl/-/media/7858D84302FA492AB8E64F558BA23D6F.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#multiSoundDemo65_playButton .multiSoundDemo65__playpause-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 11px;
+    background-image: url(https://www.jabra.nl/-/media/7858D84302FA492AB8E64F558BA23D6F.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#multiSoundDemo65_playButton.active .multiSoundDemo65__playpause-icon {
+    background-image: url(https://www.jabra.nl/-/media/9B7F8297D3AC45ADBE427B0E0A882C07.svg);
+}
+
+.multiSoundDemo65__progress {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0;
+    width: 100% !important;
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important;
+    height: 5px;
+    background: #000;
+    z-index: 2;
+
+}
+
+.multiSoundDemo65__progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #ffd100;
+    -webkit-transition: 0.2s linear width;
+    -o-transition: 0.2s linear width;
+    transition: 0.2s linear width;
+}
+
+.multiSoundDemo65__clip__options__item {
+    display: block;
+    position: relative;
+    padding: 15px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.multiSoundDemo65__clip__options input[type='radio'] {
+    display: none;
+}
+
+.multiSoundDemo65__clip__options label {
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 11px;
+    cursor: pointer;
+    position: relative;
+}
+
+.multiSoundDemo65__clip__options label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #ffd100;
+    background-color: transparent;
+}
+
+.multiSoundDemo65__clip__options input[type=radio]:checked+label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 4px;
+    content: " ";
+    display: block;
+    background: #ffd100;
+}
+
+.multiSoundDemo65__clip__options {
+    background: #333;
+    padding: 0;
+    color: #fff;
+    border-top: 1px solid rgba(255, 255, 255, .7);
+}
+
+@media (min-width: 768px) {
+    .multiSoundDemo65background-grey .multiSoundDemo65__source {
+        padding-bottom: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .multiSoundDemo65 {
+        background: #000;
+    }
+
+    .multiSoundDemo65__clip__options {
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        border: 0;
+        padding: 0;
+    }
+
+    .multiSoundDemo65__clip__options__item {
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .multiSoundDemo {
+        position: relative;
+    }
+}
+
+.multiSoundDemobackground-grey {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(#fbfbfb), color-stop(#f8f8f8), color-stop(#f4f4f4), to(#f1f1f1));
+    background-image: -o-linear-gradient(top, #ffffff, #fbfbfb, #f8f8f8, #f4f4f4, #f1f1f1);
+    background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f8f8f8, #f4f4f4, #f1f1f1);
+}
+
+.multiSoundDemo {
+    margin-bottom: 30px;
+}
+
+.multiSoundDemo__clip__options input {
+    cursor: pointer;
+}
+
+#multiSoundDemo_playButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    padding: 11px;
+    background: #000;
+    height: 100%;
+}
+
+#multiSoundDemo_playButton .multiSoundDemo__txt-play {
+    display: block;
+    white-space: nowrap;
+}
+
+#multiSoundDemo_playButton.active .multiSoundDemo__txt-play {
+    display: none;
+}
+
+#multiSoundDemo_playButton .multiSoundDemo__txt-pause {
+    display: none;
+}
+
+#multiSoundDemo_playButton.active .multiSoundDemo__txt-pause {
+    display: block;
+}
+
+#multiSoundDemo_playButton .multiSoundDemo__playpause-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 15px;
+    background-image: url(https://www.jabra.nl/-/media/7858D84302FA492AB8E64F558BA23D6F.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#multiSoundDemo_playButton .multiSoundDemo__playpause-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-right: 15px;
+    background-image: url(https://www.jabra.nl/-/media/7858D84302FA492AB8E64F558BA23D6F.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#multiSoundDemo_playButton.active .multiSoundDemo__playpause-icon {
+    background-image: url(https://www.jabra.nl/-/media/9B7F8297D3AC45ADBE427B0E0A882C07.svg);
+}
+
+.multiSoundDemo__progress {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0;
+    width: 100% !important;
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important;
+    height: 5px;
+    background: #000;
+    z-index: 2;
+    padding-right: 15px;
+}
+
+.multiSoundDemo__progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #ffd100;
+    -webkit-transition: 0.2s linear width;
+    -o-transition: 0.2s linear width;
+    transition: 0.2s linear width;
+}
+
+.multiSoundDemo__clip__options__item {
+    display: block;
+    position: relative;
+    padding: 15px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.multiSoundDemo__clip__options input[type='radio'] {
+    display: none;
+}
+
+.multiSoundDemo__clip__options label {
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.multiSoundDemo__clip__options label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #ffd100;
+    background-color: transparent;
+}
+
+.multiSoundDemo__clip__options input[type=radio]:checked+label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 4px;
+    content: " ";
+    display: block;
+    background: #ffd100;
+}
+
+.multiSoundDemo__clip__options {
+    background: #333;
+    padding: 0;
+    color: #fff;
+    border-top: 1px solid rgba(255, 255, 255, .7);
+}
+
+
+@media (min-width: 768px) {
+    .multiSoundDemobackground .multiSoundDemo__source {
+        padding-bottom: 75px;
+    }
+
+    .multiSoundDemobackground-grey .multiSoundDemo__source {
+        padding-bottom: 200px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .multiSoundDemo {
+        background: #000;
+
+    }
+
+    .multiSoundDemo__clip__options {
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        border: 0;
+        padding: 0;
+
+    }
+
+    .multiSoundDemo__clip__options__item {
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+form input, #field-options {
+    margin: 0.3rem 0;
+    border: none;
+    padding: 0 20px;
+    background: #f7f7f7;
+    border: 2px solid #fff;
+}
+
+form input:not([type="checkbox"]) {
+    width: 100%;
+    height: 45px;
+}
+
+form label {
+    display: none;
+}
+
+form label[for="field-options"] {
+    display: inline-block;
+}
+
+#field-options {
+    width: 100%;
+   height: 45px;
+}
+
+form label[for="fieldinformation-option1"],
+form label[for="fieldinformation-option2"],
+form label[for="fieldinformation-option3"] {
+    width: 95%;
+    margin: 0;
+}
+
+form input:focus {
+    border: 2px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+}
+
+form button {
+    margin-top: 1.5rem;
+}
+
+.fieldinformation.checkbox {
+    margin-bottom: 1rem;
+}
+
+.checkbox label {
+    display: inline;
+}
+
+
+.btn-dark {
+    background-color: #2A3F59;
+    color: white !important;
+}
+
+.btn-dark:hover {
+    background-color: transparent;
+    color: #2A3F59 !important;
+}
+
+.btn.last {
+    background-color: #6C859F;
+    color: #F3EFE9 !important;
+    border: 2px solid #6C859F;
+}
+
+.btn.last:hover {
+    background-color: transparent;
+    color: #2A3F59 !important;
+    border: 2px solid #2A3F59;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    color: #2A3F59 !important;
+    border: 2px solid #2A3F59;
+}
+
+.btn.secondary:hover {
+    color: #fff !important;
+    background-color: #2A3F59;
+}
+
+.block-dark {
+    background-color: #2A3F59;
+    opacity: 60%;
+}
+
+.block-dark:hover {
+    background-color: #F3EFE9 !important;
+    color: #000;
+}
+
+.block-dark .dark {
+    display: inline-block;
+}
+
+.block-dark .whity {
+    display: none;
+}
+
+.block-dark .secondly.visibility {
+    display: inline-block;
+    visibility: hidden;
+}
+
+
+.block-dark:hover .whity {
+    display: inline-block;
+}
+
+.option label {
+    display: inline-block;
+}
+
+.first {
+    background-color: #2A3F59;
+    color: white !important;
+}
+
+.first:hover {
+    background-color: transparent;
+    color: #2A3F59 !important;
+    border: 2px solid #2A3F59;
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        line-height: 56px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .smaller-screen {
+        display: none;
+    }
+
+    .header {
+        background-position: 33% 20%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .carousel-indicators {
+        bottom: -50px;
+    }
+
+    .smaller-screen {
+        display: inline-block;
+    }
+
+    .container-fluid.bigger-screen {
+        display: none;
+    }
+
+    .btn.yellow {
+        width: 100% !important;
+    }
+
+    h2 {
+        line-height: 46px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item .inside {
+        justify-content: center !important;
+    }
+
+    h2 {
+        font-size: 46px !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    h2 {
+        font-size: 37px !important;
+        line-height: 39px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 27px !important;
+        line-height: 33px !important;
+    }
+}

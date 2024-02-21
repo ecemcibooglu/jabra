@@ -1,0 +1,287 @@
+.colored {
+    background-position: bottom;
+    background-size: 100% 75%;
+    background-image: url(../engage-40-img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+
+.last {
+    background-position: bottom;
+    background-image: url(../engage-40-img/Rectanglelast.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.colored-2 {
+    background-position: top;
+    background-image: url(../engage-40-img/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+}
+
+form button {
+background-color: #768393;
+color: white;
+border-radius: 30px;
+border: 2px solid #768393;
+}
+
+form button:hover {
+background-color: transparent;
+color: #768393;
+border-radius: 30px;
+border: 2px solid #768393;
+}
+
+.btn-yellow {
+background-color: #FFD100;
+color: black;
+border-radius: 30px;
+border: 2px solid #FFD100;
+}
+
+.btn-yellow:hover {
+background-color: transparent;
+color: black;
+border-radius: 30px;
+border: 2px solid #FFD100;
+}
+
+
+.btn- {
+background-color: #F3EFE9;
+color: black;
+border-radius: 30px;
+border: 2px solid #F3EFE9;
+}
+
+.btn-:hover {
+background-color: transparent;
+color: #F3EFE9;
+border-radius: 30px;
+border: 2px solid #F3EFE9;
+}
+
+.middle-text {
+    font-size: 23px !important;
+    color: #768393;
+}
+
+.middle-text-1 {
+    font-size: 23px !important;
+    color: #fff;
+}
+
+.bitmap {
+height: 380px;
+}
+
+.link {
+    font-size: 37px !important;
+    line-height: 39px !important;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    font-size: 37px !important;
+    line-height: 39px !important;
+    color: white;
+    text-decoration: none;
+}
+
+p { 
+    font-size: 17px !important;
+}
+
+   h1 {
+        font-size: 56px !important;
+    }
+
+.text-12 {
+font-size: 12px !important;
+}
+
+form input {
+    margin: 0.3rem 0;
+    border: none;
+    padding: 0 20px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+form input:not([type="checkbox"]) {
+    width: 85%;
+    height: 45px;
+}
+
+form label {
+    display: none;
+}
+
+form label[for="fieldinformation"] {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+form input[type="checkbox"] {
+    width: 2%;
+}
+
+form input:focus {
+    border: 2px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+}
+
+form button {
+    margin-top: 1.5rem;
+}
+
+form input[type="checkbox"] {
+    margin-top: 1rem;
+}
+
+.fieldinformation.checkbox {
+    margin-bottom: 2rem;
+}
+
+.checkbox label {
+    display: inline;
+}
+
+.fieldapplication_area label[for="fieldapplication_area"] {
+    width: 100%;
+    display: block;
+}
+
+.carousel-item .inside {
+    display: flex !important;
+    justify-content: space-between;
+    border: 1px solid #979797;
+    padding: 1rem 3rem;
+    border-radius: 14px;
+    margin: 0 5px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+color: black !important;
+    width: 7% !important;
+}
+
+@media (max-width: 992px) {
+    .mobile-left {
+        text-align: center;
+        margin-top: 5% !important;
+    }
+
+    h2 {
+        font-size: 37px !important;
+        line-height: 39px !important;
+    }
+    
+    
+   h1 {
+        font-size: 40px !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+.colored-2 {
+    background-size: 100% 87%;
+}
+
+    h3 {
+        font-size: 25px !important;
+    }
+
+    h2 {
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+    
+    .middle-text {
+    font-size: 20px !important;
+    }
+    
+    .colored {
+    background-size: 100% 85%;
+    }
+}
+
+@media (max-width: 425px) {
+    .colored {
+    background-size: 100% 91%;
+    }
+    
+        
+    
+   h1 {
+        font-size: 35px !important;
+    }
+    
+    .mobile-left {
+        left: 0%;
+        margin-bottom: 5% !important;
+    }
+
+    .row p {
+        font-size: 17px;
+    }
+
+    .software-section__menu {
+        margin-top: -19%;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 30px;
+    }
+    
+    .colored-2 {
+    background-size: 100% 90%;
+}
+}
+
+.software-section {
+    position: relative;
+}
+
+.software-section__menu {
+    margin-top: -1%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.software-section__menu-item {
+    padding: 1.5rem 4px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    user-select: none;
+    transition: 0.2s linear all;
+}
+
+.software-section__menu-item {
+    display: flex;
+}
+
+.software-section__menu-item .blue {
+    display: none;
+}
+
+.software-section__menu-item.active .blue {
+    display: flex;
+}
+
+.software-section__menu-item .white {
+    display: flex;
+}
+
+.software-section__menu-item.active .white {
+    display: none;
+}
