@@ -310,7 +310,6 @@ Make sure to set a dark color for the background of the signup page in the class
   /* - - - - - - - - - - BACKGROUND-COLORS - - - - - - - - - - */
   
   .gray-diagonal-background {
-    background-image: url(//assets.channext.eu/jabra/2021/general/img/gray-rectangle.svg);
     background-repeat: no-repeat;
     background-size: 100% 90%;
   }

@@ -1,20 +1,20 @@
 .colored {
     background-position: bottom;
     background-size: 100% 79%;
-    background-image: url(https://assets.channext.eu/jabra/2022/campaings/Engage55/img/Rectangle.png);
+    background-image: url(../engage-50-img/Rectangle.png);
     background-repeat: no-repeat;
 }
 
 .last {
     background-position: bottom;
-    background-image: url(https://assets.channext.eu/jabra/2022/campaings/Engage55/img/Rectangle-green.png);
+    background-image: url(../engage-50-img/Rectangle-green.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .colored-2 {
     background-position: top;
-    background-image: url(https://assets.channext.eu/jabra/2022/campaings/engage50/Rectangle.png);
+    background-image: url(../engage-50-img/Rectangle.png);
     background-repeat: no-repeat;
     background-size: 100% 81%;
 }

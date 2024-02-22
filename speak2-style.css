@@ -3,7 +3,7 @@
 }
 
 .colored-1 {
-    background-image: url("https://assets.channext.eu/jabra/2023/speak2/img/header.webp");
+    background-image: url("../speak2-img/header.webp");
      background-repeat: no-repeat;
     background-position: bottom;
     background-size:  100% 65%;

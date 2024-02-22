@@ -3,7 +3,7 @@
 }
 
 .colored {
-    background-image: url("https://assets.channext.eu/jabra/2023/evolve2-50%2655%2665/img/bg.png");
+    background-image: url("../evolve2-img/bg.png");
      background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 75%;
@@ -11,7 +11,7 @@
 
 
 .bg2 {
-    background-image: url("https://assets.channext.eu/jabra/2023/evolve2-50%2655%2665/img/bg2.png");
+    background-image: url("../evolve2-img/bg2.png");
      background-repeat: no-repeat;
     background-position: top;
     background-size:  100% 70%;

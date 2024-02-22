@@ -1,0 +1,291 @@
+.header {
+    background-image: url("../video-oplossingen-img/Bitmap.png");
+    background-size: cover;
+    background-position: 55%;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.middle-text p {
+    font-size: 18px;
+}
+
+.middle-text h2 {
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.middle-text h4 {
+    font-weight: 400 !important;
+}
+
+.middle-grey {
+    color: #898989;
+    font-size: 24px;
+    font-weight: 400 !important;
+}
+
+.btn.yellow {
+    width: auto !important;
+}
+
+.link-hover,
+.link-hover:visited {
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.15rem;
+    display: inline-block;
+    white-space: nowrap;
+    color: inherit !important;
+    margin: 20px 0;
+}
+
+.thirdly {
+    min-width: 36%;
+}
+
+.modal {
+    top: -16%;
+}
+
+.block {
+    min-width: 96%;
+    background-color: #f3efe9;
+    border-bottom-left-radius: 45rem;
+    border-top-left-radius: 45rem;
+    padding: 12%;
+    margin-bottom: 10% !important;
+    margin-top: 10% !important;
+}
+
+.colored {
+    background-image: url("../video-oplossingen-img/Rectangle-3.png");
+    background-position: center;
+    background-size: 100% 74%;
+    background-repeat: no-repeat;
+}
+
+.new-btn {
+    background-color: #627776;
+    color: white;
+    border: 2px solid #627776;
+}
+
+.new-btn:hover {
+    background-color: transparent;
+    color: #627776;
+    border: 2px solid #627776;
+}
+
+.banner {
+    background-image: url("../video-oplossingen-img/banner.png");
+    background-size: cover;
+    background-position: 55%;
+    background-repeat: no-repeat;
+}
+
+.colored-2 {
+    background-color: #6C859F;
+    background-size: cover;
+    background-position: 55%;
+    background-repeat: no-repeat;
+}
+
+.middle {
+    border-radius: 8%;
+}
+
+.block-dark:not(:hover).first {
+    background-image: url('../video-oplossingen-img/block-1.png');
+}
+
+.block-dark:not(:hover).second {
+    background-image: url('../video-oplossingen-img/block-2.png');
+}
+
+.block-dark:not(:hover).third {
+    background-image: url('../video-oplossingen-img/block-3.png');
+}
+
+.block-dark:not(:hover) {
+    background-size: 120%;
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.block-dark:hover {
+    background-color: #F3EFE9;
+    color: #000;
+}
+
+.block-dark:hover.link-hover{
+    color: black
+}
+
+
+.block-dark img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block !important;
+}
+
+.block-dark .img-container {
+    height: 180px;
+    width: 100%;
+}
+
+.block-dark.third img {
+    height: 180px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.special-height {
+    height: 50px;
+}
+
+.small-img {
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+
+form input, #field-options {
+    margin: 0.3rem 0;
+    border: none;
+    padding: 0 20px;
+    background: #f7f7f7;
+    border: 2px solid #fff;
+}
+
+form input:not([type="checkbox"]), #field-options {
+    width: 100%;
+    height: 45px;
+}
+
+form input[type="checkbox"] {
+    margin-top: 1rem;
+}
+
+form .text label,
+form .email label,
+form .phone label {
+    display: none;
+}
+
+form input[type="text"]:focus {
+    border: 2px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+form label[for="field-options"],
+form label[for="fieldinformation-option1"],
+form label[for="fieldinformation-option2"],
+form label[for="fieldinformation-option3"] {
+    display: inline-block;
+}
+
+form label[for="field-options"] {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+form label[for="fieldinformation-option1"],
+form label[for="fieldinformation-option2"],
+form label[for="fieldinformation-option3"] {
+    width: 95%;
+    margin: 0;
+}
+
+form input[type="checkbox"] {
+    width: 3%;
+}
+
+form input:focus {
+    border: 2px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+}
+
+form .button {
+    margin-top: 1.5rem;
+    background-color: #FFD100;
+    color: #000;
+    border: 2px solid #FFD100;
+    width: 80%;
+}
+
+form .button:hover {
+    background-color: black;
+    color: #FFD100;
+    border: 2px solid #FFD100;
+}
+
+.btn.yellow:hover {
+    border: 2px solid #FFD100 !important;
+}
+
+.fieldinformation.checkbox {
+    margin-bottom: 2rem;
+}
+
+.checkbox label {
+    display: inline;
+}
+
+@media screen and (max-width: 1200px) {
+    h3 {
+        font-size: 31px !important;
+        line-height: 38px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .carousel-indicators {
+        bottom: -50px;
+    }
+
+    .block {
+        padding: 8%;
+    }
+
+    .colored {
+        background-size: 100% 83%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .middle-text h2 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    .btn,
+    .sp-cta-btn,
+    form button {
+        font-size: 3.34vw !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .block {
+        padding-bottom: 8%;
+    }
+}

@@ -1,0 +1,211 @@
+.header {
+    background-position: bottom;
+    background-size: 100% 79%;
+    background-image: url(../panacast50-img/header.png);
+    background-repeat: no-repeat;
+}
+
+.colored {
+    background-image: url(../panacast50-img/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.last {
+    background-position: bottom;
+    background-color: #2A3F59;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.btn-gray {
+background-color: #6C859F;
+color: white;
+border-radius: 30px;
+border: 2px solid #6C859F;
+}
+
+.btn-gray:hover {
+background-color: transparent;
+color: #6C859F;
+border-radius: 30px;
+border: 2px solid #6C859F;
+}
+
+.btn-yellow, form button {
+background-color: #FFD100;
+color: black;
+border-radius: 30px;
+border: 2px solid #FFD100;
+}
+
+.btn-yellow:hover {
+background-color: transparent;
+color: black;
+border-radius: 30px;
+border: 2px solid #FFD100;
+}
+
+form button:hover {
+background-color: transparent;
+color: #FFD100 !important;
+border-radius: 30px;
+border: 2px solid #FFD100;
+}
+
+.text-right {
+text-align: left !important;
+}
+
+.middle-text {
+    font-size: 23px !important;
+    color: #2A3F59;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+p { 
+    font-size: 16px !important;
+}
+
+.text-12 {
+font-size: 12px !important;
+}
+
+form input {
+    margin: 0.3rem 0;
+    border: none;
+    padding: 0 20px;
+    background: #f7f7f7;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+form input:not([type="checkbox"]) {
+    width: 90%;
+    height: 45px;
+}
+
+form label {
+    display: none;
+}
+
+form label[for="fieldinformation"] {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+form input[type="checkbox"] {
+    width: 2%;
+}
+
+form input:focus {
+    border: 2px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+}
+
+form button {
+    margin-top: 1.5rem;
+}
+
+form input[type="checkbox"] {
+    margin-top: 1rem;
+}
+
+.fieldinformation.checkbox {
+    margin-bottom: 2rem;
+}
+
+.checkbox label {
+    display: inline;
+}
+
+.fieldapplication_area label[for="fieldapplication_area"] {
+    width: 100%;
+    display: block;
+}
+
+.carousel-item .inside {
+    display: flex !important;
+    justify-content: space-between;
+    border: 1px solid #979797;
+    padding: 1rem 3rem;
+    border-radius: 14px;
+    margin: 0 5px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+color: black !important;
+    width: 7% !important;
+}
+
+
+@media (max-width: 992px) {
+    h2 {
+        font-size: 39px !important;
+        line-height: 39px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.colored-2 {
+    background-size: 100% 87%;
+}
+
+    h3 {
+        font-size: 25px !important;
+    }
+
+    h2 {
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+    
+    .middle-text {
+    font-size: 20px !important;
+    }
+    
+    .colored {
+    background-size: 100% 85%;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-left {
+        text-align: center;
+        margin-top: 10% !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .colored {
+    background-size: 100% 91%;
+    }
+    
+    .mobile-left {
+        left: 0%;
+        margin-bottom: 5% !important;
+    }
+
+    .row p {
+        font-size: 17px;
+    }
+
+    .software-section__menu {
+        margin-top: -19%;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 30px;
+    }
+    
+    .colored-2 {
+    background-size: 100% 90%;
+}
+}
